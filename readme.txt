@@ -1,0 +1,3 @@
+The code will randomly select 26 words from the BIP39 list and create 12 files each containing 3 words. Then these files will be combined to make all possible recovery phrases. This means 531441 recovery phrases will be generated out which approximately 34k will be valid according to BIP39 rules. The balance for the address corresponding to thes recovery phrases will be check and stored in a excel file. You can also use the script in case you have forgotten the exact recovery phrase and are confused between 2-3 words at some places.
+
+You will need to make a free account on infura and paste your API keys in the script and you should be good to go
